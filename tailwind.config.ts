@@ -7,7 +7,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "bricolage-grotesque": ["var(--font-bricolage-grotesque)", "sans-serif"],
+        inter: ["var(--font-inter)", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
