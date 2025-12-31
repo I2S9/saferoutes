@@ -15,7 +15,7 @@ export default function AnimatedNumber({
   duration = 2500,
   isVisible 
 }: AnimatedNumberProps) {
-  const [displayValue, setDisplayValue] = useState(0);
+  const [displayValue, setDisplayValue] = useState<number | string>(0);
   const [isAnimating, setIsAnimating] = useState(false);
   const animationFrameRef = useRef<number | null>(null);
   const startTimeRef = useRef<number | null>(null);
