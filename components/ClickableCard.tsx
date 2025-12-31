@@ -1,15 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import AnimatedNumber from "./AnimatedNumber";
+import { useState, useEffect, useRef } from "react";
 
-interface StatCardProps {
-  value: number | string;
-  description: string;
+interface ClickableCardProps {
+  children: React.ReactNode;
   delay?: number;
 }
 
-export default function StatCard({ value, description, delay = 0 }: StatCardProps) {
+export default function ClickableCard({ children, delay = 0 }: ClickableCardProps) {
+  const [isClicked, setIsClicked] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -37,20 +36,22 @@ export default function StatCard({ value, description, delay = 0 }: StatCardProp
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${
+      className={`transition-all duration-700 ease-out cursor-pointer ${
         isVisible
           ? "opacity-100 translate-y-0"
           : "opacity-0 translate-y-8"
       }`}
       style={{ transitionDelay: `${delay}ms` }}
+      onClick={() => setIsClicked(!isClicked)}
     >
-      <div className="text-center">
-        <div className="font-bricolage-grotesque text-4xl md:text-5xl font-bold text-black mb-3">
-          <AnimatedNumber value={value} isVisible={isVisible} />
-        </div>
-        <p className="font-bricolage-grotesque text-base md:text-lg text-black">
-          {description}
-        </p>
+      <div
+        className={`rounded-2xl p-4 md:p-5 transition-all duration-300 ${
+          isClicked
+            ? "border-2 border-green-500 bg-green-50"
+            : "border border-gray-300 bg-white"
+        }`}
+      >
+        {children}
       </div>
     </div>
   );
