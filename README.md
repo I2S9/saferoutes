@@ -1,7 +1,5 @@
 # SafeRoutes
 
-> A promotional landing page for SafeRoutes, a mobile-first road safety prevention application.
-
 ![SafeRoutes](public/SafeRoutes.png)
 
 ## Challenge Innovation Sécurité Routière 2026
