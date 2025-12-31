@@ -1,14 +1,15 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface ClickableCardProps {
   children: React.ReactNode;
   delay?: number;
+  isSelected: boolean;
+  onClick: () => void;
 }
 
-export default function ClickableCard({ children, delay = 0 }: ClickableCardProps) {
-  const [isClicked, setIsClicked] = useState(false);
+export default function ClickableCard({ children, delay = 0, isSelected, onClick }: ClickableCardProps) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -42,11 +43,11 @@ export default function ClickableCard({ children, delay = 0 }: ClickableCardProp
           : "opacity-0 translate-y-8"
       }`}
       style={{ transitionDelay: `${delay}ms` }}
-      onClick={() => setIsClicked(!isClicked)}
+      onClick={onClick}
     >
       <div
         className={`rounded-2xl p-4 md:p-5 transition-all duration-300 ${
-          isClicked
+          isSelected
             ? "border-2 border-green-500 bg-green-50"
             : "border border-gray-300 bg-white"
         }`}
