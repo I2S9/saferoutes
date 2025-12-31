@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import ScrollCard from "@/components/ScrollCard";
 import Footer from "@/components/Footer";
+import StatCard from "@/components/StatCard";
 
 export default function Home() {
   return (
@@ -44,6 +45,33 @@ export default function Home() {
               />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="w-full px-4 py-8 md:py-12 lg:py-16 bg-stone-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="font-bricolage-grotesque text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-8 md:mb-12 text-center">
+            La sécurité routière en chiffres
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8">
+            <StatCard
+              value={3193}
+              description="Décès sur les routes de France métropolitaine en 2024"
+              delay={0}
+            />
+            <StatCard
+              value="30%"
+              description="Des accidents mortels sont liés à la vitesse excessive"
+              delay={100}
+            />
+            <StatCard
+              value="25%"
+              description="Des accidents mortels impliquent un conducteur alcoolisé"
+              delay={200}
+            />
+          </div>
+          <p className="font-bricolage-grotesque text-sm text-gray-600 text-center italic">
+            Sources : ONISR (Observatoire National Interministériel de la Sécurité Routière) - Bilan 2024
+          </p>
         </div>
       </section>
       <section className="w-full px-4 py-8 md:py-12 lg:py-16 bg-stone-50">
