@@ -3,9 +3,9 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-stone-50">
       <Navbar />
-      <section className="w-full px-4 py-8 md:py-12 lg:py-16 bg-white">
+      <section className="w-full px-4 py-8 md:py-12 lg:py-16 bg-stone-50">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center md:items-center gap-8 md:gap-12 lg:gap-16">
             {/* Left side: Logo and text */}

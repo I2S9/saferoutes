@@ -21,7 +21,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-bricolage-grotesque">{children}</body>
+      <body className="font-bricolage-grotesque bg-stone-50">{children}</body>
     </html>
   );
 }
