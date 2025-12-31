@@ -9,8 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "bricolage-grotesque": ["var(--font-bricolage-grotesque)", "sans-serif"],
-        inter: ["var(--font-inter)", "sans-serif"],
+        "bricolage-grotesque": ['"Bricolage Grotesque"', "sans-serif"],
       },
     },
   },
