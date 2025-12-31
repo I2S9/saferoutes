@@ -5,24 +5,51 @@ import Image from "next/image";
 import ClickableCard from "./ClickableCard";
 
 export default function HowItWorksSection() {
-  const [selectedCard, setSelectedCard] = useState<number | null>(null);
+  const [selectedCard, setSelectedCard] = useState<number>(0);
+
+  // Map cards to images
+  const getImageSrc = () => {
+    switch (selectedCard) {
+      case 0:
+        return "/analysez-les-routes.png";
+      case 1:
+        return "/detectez-les-zones-a-risque.png";
+      case 2:
+        return "/recevez-alertes.png";
+      default:
+        return "/analysez-les-routes.png";
+    }
+  };
 
   return (
-    <section className="w-full px-4 py-8 md:py-12 lg:py-16 bg-stone-50">
+    <section id="fonctionnalites" className="w-full px-4 py-8 md:py-12 lg:py-16 bg-stone-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="font-bricolage-grotesque text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-8 md:mb-12 text-center">
           Comment fonctionne SafeRoutes ?
         </h2>
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-1 md:gap-2">
           {/* Left side: Phone image */}
-          <div className="flex-1 flex justify-center md:justify-start">
+          <div className="flex-1 flex flex-col items-center">
             <Image
-              src="/iphones-demo-saferoutes.png"
+              src={getImageSrc()}
               alt="SafeRoutes - Application mobile"
-              width={400}
-              height={600}
-              className="w-full max-w-[300px] md:max-w-[350px] h-auto"
+              width={300}
+              height={450}
+              className="w-full max-w-[200px] md:max-w-[250px] h-auto transition-opacity duration-300"
             />
+            {/* Pagination dots */}
+            <div className="flex gap-2 mt-4 justify-center">
+              {[0, 1, 2].map((index) => (
+                <div
+                  key={index}
+                  className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                    selectedCard === index
+                      ? "bg-black"
+                      : "bg-gray-300"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
 
           {/* Right side: Information blocks */}
@@ -30,7 +57,7 @@ export default function HowItWorksSection() {
             <ClickableCard 
               delay={0} 
               isSelected={selectedCard === 0}
-              onClick={() => setSelectedCard(selectedCard === 0 ? null : 0)}
+              onClick={() => setSelectedCard(0)}
             >
               <h3 className="font-bricolage-grotesque text-lg md:text-xl font-bold text-black mb-2">
                 Analyse en temps réel
@@ -42,7 +69,7 @@ export default function HowItWorksSection() {
             <ClickableCard 
               delay={100} 
               isSelected={selectedCard === 1}
-              onClick={() => setSelectedCard(selectedCard === 1 ? null : 1)}
+              onClick={() => setSelectedCard(1)}
             >
               <h3 className="font-bricolage-grotesque text-lg md:text-xl font-bold text-black mb-2">
                 Détection des zones à risque
@@ -54,7 +81,7 @@ export default function HowItWorksSection() {
             <ClickableCard 
               delay={200} 
               isSelected={selectedCard === 2}
-              onClick={() => setSelectedCard(selectedCard === 2 ? null : 2)}
+              onClick={() => setSelectedCard(2)}
             >
               <h3 className="font-bricolage-grotesque text-lg md:text-xl font-bold text-black mb-2">
                 Alertes utiles et discrètes
