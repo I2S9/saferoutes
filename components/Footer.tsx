@@ -2,8 +2,7 @@ export default function Footer() {
   return (
     <footer className="w-full mt-auto">
       <div 
-        className="rounded-t-[4rem] px-6 py-8 md:px-8 md:py-12 w-full"
-        style={{ backgroundColor: "#78D05F" }}
+        className="rounded-t-[4rem] px-6 py-8 md:px-8 md:py-12 w-full bg-gray-800"
       >
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8">
@@ -86,7 +85,7 @@ export default function Footer() {
           </div>
 
           {/* Slogan et copyright */}
-          <div className="border-t border-green-400 pt-8 text-center">
+          <div className="border-t border-gray-700 pt-8 text-center">
             <p className="font-bricolage-grotesque text-white text-base md:text-lg mb-2">
               SafeRoutes - Prévoir le danger avant qu&apos;il n&apos;existe.
             </p>

@@ -113,33 +113,33 @@ export default function Home() {
             </div>
 
             {/* Right side: Information blocks */}
-            <div className="flex-1 flex flex-col gap-6 md:gap-8">
+            <div className="flex-1 flex flex-col gap-4 md:gap-5">
               <ScrollCard delay={0}>
-                <div className="bg-white rounded-2xl p-6 md:p-8 border border-gray-300">
-                  <h3 className="font-bricolage-grotesque text-xl md:text-2xl font-bold text-black mb-3">
+                <div className="bg-white rounded-2xl p-4 md:p-5 border border-gray-300">
+                  <h3 className="font-bricolage-grotesque text-lg md:text-xl font-bold text-black mb-2">
                     Analyse en temps réel
                   </h3>
-                  <p className="font-bricolage-grotesque text-base md:text-lg text-black leading-relaxed">
+                  <p className="font-bricolage-grotesque text-sm md:text-base text-black leading-relaxed">
                     SafeRoutes utilise les capteurs du smartphone (géolocalisation, mouvements, variations de vitesse) pour analyser le contexte de déplacement en continu, sans nécessiter de matériel supplémentaire.
                   </p>
                 </div>
               </ScrollCard>
               <ScrollCard delay={100}>
-                <div className="bg-white rounded-2xl p-6 md:p-8 border border-gray-300">
-                  <h3 className="font-bricolage-grotesque text-xl md:text-2xl font-bold text-black mb-3">
+                <div className="bg-white rounded-2xl p-4 md:p-5 border border-gray-300">
+                  <h3 className="font-bricolage-grotesque text-lg md:text-xl font-bold text-black mb-2">
                     Détection des zones à risque
                   </h3>
-                  <p className="font-bricolage-grotesque text-base md:text-lg text-black leading-relaxed">
+                  <p className="font-bricolage-grotesque text-sm md:text-base text-black leading-relaxed">
                     En croisant ces données avec des informations contextuelles (conditions de circulation, météo, récurrence des incidents), l&apos;application identifie des zones présentant un risque accru pour l&apos;usager.
                   </p>
                 </div>
               </ScrollCard>
               <ScrollCard delay={200}>
-                <div className="bg-white rounded-2xl p-6 md:p-8 border border-gray-300">
-                  <h3 className="font-bricolage-grotesque text-xl md:text-2xl font-bold text-black mb-3">
+                <div className="bg-white rounded-2xl p-4 md:p-5 border border-gray-300">
+                  <h3 className="font-bricolage-grotesque text-lg md:text-xl font-bold text-black mb-2">
                     Alertes utiles et discrètes
                   </h3>
-                  <p className="font-bricolage-grotesque text-base md:text-lg text-black leading-relaxed">
+                  <p className="font-bricolage-grotesque text-sm md:text-base text-black leading-relaxed">
                     Lorsqu&apos;une zone à risque est détectée, SafeRoutes informe l&apos;usager en amont par des alertes sobres, conçues pour ne jamais détourner l&apos;attention de la route.
                   </p>
                 </div>
