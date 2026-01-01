@@ -13,22 +13,22 @@ export default function Footer() {
               </h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#concept" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
+                  <a href="/concept" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
                     Concept
                   </a>
                 </li>
                 <li>
-                  <a href="#fonctionnalites" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
+                  <a href="/fonctionnalites" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
                     Fonctionnalités
                   </a>
                 </li>
                 <li>
-                  <a href="#demo" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
+                  <a href="/demo" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
                     Demo
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
+                  <a href="/#contact" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
                     Contact
                   </a>
                 </li>
