@@ -24,13 +24,13 @@ export default function Navbar() {
           <a href="/concept" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
             Concept
           </a>
-          <a href="/fonctionnalites" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
+          <a href="/#fonctionnalites" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
             Fonctionnalités
           </a>
           <a href="/demo" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
             Demo
           </a>
-          <a href="/#contact" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
+          <a href="/contact" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
             Contact
           </a>
         </div>
