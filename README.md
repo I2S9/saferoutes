@@ -1,6 +1,6 @@
 # SafeRoutes
 
-![SafeRoutes](public/saferoutes.png)
+![SafeRoutes](public/mockup-saferoutes.png)
 
 ## Challenge Innovation Sécurité Routière 2026
 
