@@ -28,7 +28,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
+                  <a href="mailto:ines.gbadamassi@edu.univ-paris13.fr" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
                     Contact
                   </a>
                 </li>
@@ -71,8 +71,8 @@ export default function Footer() {
               </h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="mailto:contact@saferoutes.fr" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
-                    contact@saferoutes.fr
+                  <a href="mailto:ines.gbadamassi@edu.univ-paris13.fr" className="font-bricolage-grotesque text-white text-base hover:text-green-100 transition-colors">
+                    ines.gbadamassi@edu.univ-paris13.fr
                   </a>
                 </li>
                 <li>

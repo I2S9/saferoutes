@@ -30,7 +30,7 @@ export default function Navbar() {
           <a href="/demo" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
             Demo
           </a>
-          <a href="/contact" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
+          <a href="mailto:ines.gbadamassi@edu.univ-paris13.fr" className="text-white hover:text-green-100 transition-colors text-lg md:text-xl">
             Contact
           </a>
         </div>
