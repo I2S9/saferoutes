@@ -121,7 +121,10 @@ export default function ConceptPage() {
                 SafeRoutes repose sur des principes simples et essentiels : prévenir plutôt que réagir, informer sans distraire et respecter les données personnelles.
               </p>
               <p>
-                Les données utilisées par l&apos;application sont anonymisées et exploitées uniquement dans un objectif de prévention routière. Le projet adopte une approche responsable, sobre et transparente, afin de garantir son acceptabilité par les usagers.
+                Le principe de prévention guide l&apos;ensemble de la conception. SafeRoutes anticipe les situations à risque en analysant les conditions de déplacement en temps réel, créant ainsi une fenêtre d&apos;action plus large pour l&apos;usager. Les alertes sont conçues pour être rares, pertinentes et discrètes, privilégiant la qualité de l&apos;information à la quantité.
+              </p>
+              <p>
+                Les données utilisées par l&apos;application sont anonymisées et exploitées uniquement dans un objectif de prévention routière. Le projet adopte une approche responsable, sobre et transparente, en minimisant la collecte de données au strict nécessaire et en garantissant un contrôle total à l&apos;usager sur ses informations.
               </p>
             </div>
           </div>
@@ -133,10 +136,10 @@ export default function ConceptPage() {
             </h2>
             <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
               <p>
-                SafeRoutes est actuellement au stade de prototype de conception, avec une interface et un parcours utilisateur complets réalisés sur Figma.
+                SafeRoutes est actuellement au stade de prototype de conception, avec une interface et un parcours utilisateur complets réalisés sur Figma. Une enquête utilisateur UX/UI a été menée auprès d&apos;une douzaine de personnes afin d&apos;affiner les besoins des usagers et de recueillir des retours sur l&apos;agencement de l&apos;application, permettant ainsi d&apos;optimiser l&apos;expérience utilisateur et l&apos;ergonomie de l&apos;outil.
               </p>
               <p>
-                La prochaine étape consiste à développer un prototype technique afin de tester l&apos;application en conditions réelles, d&apos;évaluer la pertinence des alertes et d&apos;engager des partenariats avec des acteurs de la sécurité routière.
+                Si le financement du projet le permet, l&apos;objectif est de développer et déployer l&apos;application sur les plateformes mobiles, tout en établissant des partenariats stratégiques avec des collectivités, des auto-écoles, des associations et des acteurs de la sécurité routière. Ces collaborations permettront d&apos;accroître le nombre d&apos;utilisateurs, d&apos;enrichir la base de données de prévention et d&apos;améliorer continuellement l&apos;efficacité de l&apos;outil.
               </p>
             </div>
           </div>
