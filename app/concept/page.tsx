@@ -52,7 +52,10 @@ export default function ConceptPage() {
                 Les outils numériques actuels accompagnent principalement les usagers dans le choix d&apos;un itinéraire ou dans l&apos;optimisation du temps de trajet. En revanche, peu de solutions se concentrent sur l&apos;anticipation fine des dangers à court terme, en tenant compte du contexte réel de déplacement.
               </p>
               <p>
-                En conséquence, l&apos;usager découvre souvent le danger tardivement, lorsque la marge de réaction est déjà réduite et que le risque est engagé.
+                Ces outils offrent une vision statique de la route, basée sur des données cartographiques et des conditions moyennes, sans intégrer les variations dynamiques liées aux conditions météorologiques, à l&apos;état de la chaussée, à la densité du trafic ou aux comportements des autres usagers. Cette limitation crée un décalage entre la représentation du trajet et la réalité vécue sur le terrain.
+              </p>
+              <p>
+                En conséquence, l&apos;usager découvre souvent le danger tardivement, lorsque la marge de réaction est déjà réduite et que le risque est engagé. Cette situation limite sa capacité à adapter son comportement de manière préventive et augmente la probabilité d&apos;incidents, notamment dans des zones déjà identifiées comme problématiques mais qui ne sont pas signalées en amont.
               </p>
             </div>
           </div>
@@ -67,7 +70,13 @@ export default function ConceptPage() {
                 SafeRoutes est né de l&apos;idée que le danger routier peut être mieux perçu avant d&apos;être vécu. Le projet vise à rendre visibles des risques souvent invisibles, en analysant le contexte réel du déplacement plutôt qu&apos;un simple itinéraire.
               </p>
               <p>
-                L&apos;application ne cherche pas à remplacer les outils existants, mais à proposer une couche de prévention complémentaire, centrée sur l&apos;anticipation des situations dangereuses et la sécurité des usagers.
+                Cette vision s&apos;appuie sur le constat que la plupart des accidents surviennent dans des situations où l&apos;usager n&apos;a pas eu le temps de réagir efficacement. En anticipant les zones à risque et en informant l&apos;usager en amont, SafeRoutes cherche à créer une fenêtre de réaction plus large, permettant une adaptation du comportement avant que la situation ne devienne critique.
+              </p>
+              <p>
+                L&apos;application ne cherche pas à remplacer les outils existants, mais à proposer une couche de prévention complémentaire, centrée sur l&apos;anticipation des situations dangereuses et la sécurité des usagers. Contrairement aux applications de navigation qui se concentrent sur l&apos;optimisation du trajet, SafeRoutes se positionne comme un outil de vigilance continue, qui fonctionne en arrière-plan et n&apos;intervient que lorsque cela est nécessaire.
+              </p>
+              <p>
+                La philosophie du projet repose sur une approche préventive plutôt que réactive. Au lieu d&apos;attendre qu&apos;un incident se produise pour en tirer des enseignements, SafeRoutes analyse en temps réel les conditions de déplacement et les compare aux données historiques pour identifier les zones où le risque est accru. Cette méthode permet de transformer l&apos;expérience collective en une ressource de prévention accessible à tous.
               </p>
             </div>
           </div>
