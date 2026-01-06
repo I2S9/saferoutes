@@ -18,7 +18,7 @@ export default function ConceptPage() {
               <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6">
                 Un projet inscrit dans une démarche d&apos;innovation en sécurité routière
               </h2>
-              <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed">
+              <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
                 <p>
                   SafeRoutes s&apos;inscrit dans le cadre du Challenge Innovation Sécurité Routière 2026, un concours national destiné aux étudiants visant à encourager l&apos;émergence de projets innovants contribuant à l&apos;amélioration de la sécurité sur les routes.
                 </p>
@@ -47,7 +47,7 @@ export default function ConceptPage() {
             <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6 text-left">
               Un manque d&apos;anticipation au quotidien
             </h2>
-            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
+            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
               <p>
                 Les outils numériques actuels accompagnent principalement les usagers dans le choix d&apos;un itinéraire ou dans l&apos;optimisation du temps de trajet. En revanche, peu de solutions se concentrent sur l&apos;anticipation fine des dangers à court terme, en tenant compte du contexte réel de déplacement.
               </p>
@@ -65,7 +65,7 @@ export default function ConceptPage() {
             <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6 text-left">
               L&apos;idée derrière SafeRoutes
             </h2>
-            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
+            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
               <p>
                 SafeRoutes est né de l&apos;idée que le danger routier peut être mieux perçu avant d&apos;être vécu. Le projet vise à rendre visibles des risques souvent invisibles, en analysant le contexte réel du déplacement plutôt qu&apos;un simple itinéraire.
               </p>
@@ -86,7 +86,7 @@ export default function ConceptPage() {
             <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6 text-left">
               Une application pensée pour la prévention
             </h2>
-            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
+            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
               <p>
                 SafeRoutes est une application mobile de prévention routière qui analyse le contexte de déplacement en temps réel à partir des capteurs du smartphone et de données contextuelles. Cette analyse permet d&apos;identifier des zones à risque récurrentes et d&apos;informer l&apos;usager en amont, de manière volontairement discrète.
               </p>
@@ -101,7 +101,7 @@ export default function ConceptPage() {
             <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6 text-left">
               Une approche inclusive et adaptée aux usagers
             </h2>
-            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
+            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
               <p>
                 SafeRoutes s&apos;adresse à l&apos;ensemble des usagers de la route. L&apos;application prend en compte la diversité des profils et adapte ses alertes en fonction du mode de déplacement et du niveau de vulnérabilité.
               </p>
@@ -116,7 +116,7 @@ export default function ConceptPage() {
             <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6 text-left">
               Les principes qui guident le projet
             </h2>
-            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
+            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
               <p>
                 SafeRoutes repose sur des principes simples et essentiels : prévenir plutôt que réagir, informer sans distraire et respecter les données personnelles.
               </p>
@@ -134,7 +134,7 @@ export default function ConceptPage() {
             <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6 text-left">
               État d&apos;avancement du projet
             </h2>
-            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
+            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
               <p>
                 SafeRoutes est actuellement au stade de prototype de conception, avec une interface et un parcours utilisateur complets réalisés sur Figma. Une enquête utilisateur UX/UI a été menée auprès d&apos;une douzaine de personnes afin d&apos;affiner les besoins des usagers et de recueillir des retours sur l&apos;agencement de l&apos;application, permettant ainsi d&apos;optimiser l&apos;expérience utilisateur et l&apos;ergonomie de l&apos;outil.
               </p>
@@ -149,7 +149,7 @@ export default function ConceptPage() {
             <h2 className="font-bricolage-grotesque text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-6 text-left">
               Une approche pragmatique de la prévention
             </h2>
-            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-left">
+            <div className="space-y-4 font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify">
               <p>
                 SafeRoutes est un projet en cours de développement, porté par la volonté de transformer une idée de prévention en un outil concret, utile et responsable, au service de la sécurité routière.
               </p>
