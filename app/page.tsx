@@ -124,7 +124,7 @@ export default function Home() {
                 <strong className="font-bold">Jeunes conducteurs :</strong> accompagnement pédagogique et non culpabilisant
               </li>
             </ul>
-            <p className="font-bricolage-grotesque text-lg md:text-xl text-black text-center leading-relaxed">
+            <p className="font-bricolage-grotesque text-lg md:text-xl text-black text-left leading-relaxed">
               SafeRoutes adapte ses alertes et ses seuils de vigilance en fonction du profil, afin de proposer une prévention pertinente et personnalisée.
             </p>
           </div>
