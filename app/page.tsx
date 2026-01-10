@@ -84,12 +84,14 @@ export default function Home() {
       </section>
       <section className="w-full px-4 py-8 md:py-12 lg:py-16 bg-stone-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="font-bricolage-grotesque text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-6 md:mb-8 text-center">
-            Pourquoi SafeRoutes est nécessaire aujourd&apos;hui ?
-          </h2>
-          <p className="font-bricolage-grotesque text-lg md:text-xl text-black max-w-4xl mx-auto leading-relaxed text-center mb-8">
-            Chaque année, une grande partie des accidents de la route survient sur des portions déjà connues pour leur dangerosité : virages mal négociés, chaussées dégradées, zones urbaines complexes ou conditions météorologiques défavorables. Pourtant, ces risques restent souvent invisibles pour l&apos;usager jusqu&apos;au moment critique. SafeRoutes a été pensé pour combler ce manque, en rendant le danger perceptible avant qu&apos;il ne survienne.
-          </p>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-bricolage-grotesque text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-6 md:mb-8 text-center">
+              Pourquoi SafeRoutes est nécessaire aujourd&apos;hui ?
+            </h2>
+            <p className="font-bricolage-grotesque text-lg md:text-xl text-black leading-relaxed text-justify mb-8">
+              Chaque année, une grande partie des accidents de la route survient sur des portions déjà connues pour leur dangerosité : virages mal négociés, chaussées dégradées, zones urbaines complexes ou conditions météorologiques défavorables. Pourtant, ces risques restent souvent invisibles pour l&apos;usager jusqu&apos;au moment critique. SafeRoutes a été pensé pour combler ce manque, en rendant le danger perceptible avant qu&apos;il ne survienne.
+            </p>
+          </div>
           <div className="max-w-2xl mx-auto mt-8">
             <div className="rounded-2xl overflow-hidden">
               <Image
