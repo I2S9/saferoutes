@@ -30,6 +30,13 @@ export default function Home() {
                   <p className="font-bricolage-grotesque text-lg md:text-xl text-black">
                     Prévoir le danger avant qu&apos;il n&apos;existe.
                   </p>
+                  <a 
+                    href="/demo" 
+                    className="mt-4 px-6 py-3 rounded-lg font-bricolage-grotesque text-white text-lg font-bold transition-all duration-300 hover:opacity-90"
+                    style={{ backgroundColor: "#78D05F" }}
+                  >
+                    Tester maintenant
+                  </a>
                 </div>
               </div>
             </div>
